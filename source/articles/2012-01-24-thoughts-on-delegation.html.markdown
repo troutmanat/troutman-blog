@@ -1,6 +1,6 @@
 --- 
 title: "Thoughts on Delegation"
-published: false 
+published: true 
 date: 2012-01-24
 --- 
 
