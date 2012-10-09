@@ -1,17 +1,31 @@
 @import "susy";
 
 $total-columns  : 7;
-$column-width   : 4em;
+$column-width   : 8em;
 $gutter-width   : 1em;
 $grid-padding   : $gutter-width;
 
 $break          : 12;
 
-
-.main {
+.page {
   @include container($total-columns, $break);
-  //@include susy-grid-background;
+  @include susy-grid-background;
+
+  header, footer { clear:both; }
+
+  .main {
+    @include span-columns(5, $total-columns);
+    border-top-style:double;
+    border-top: 3px;
+  }
+
+  .right {
+    @include span-columns(2 omega, $total-columns);
+    border-right-style:solid;
+    border-right: 1px;
+  } 
 }
+
 
 @include at-breakpoint($break) {
   .main {
