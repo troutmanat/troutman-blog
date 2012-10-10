@@ -9,7 +9,15 @@
   <body>
     <div class="page">
     <div role="main" class="main">
-      <%= yield %>
+      <div class="column1">
+        <% blog.articles.each do |article| %>
+            <h2> <%= article.title %> </h2>
+            <%= article.summary %>
+          <section>
+          </section>
+        <% end %>
+        
+      </div>
     </div>
     <div class="right">
        <h2>Tags</h2>
