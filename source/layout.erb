@@ -42,8 +42,7 @@
 	      <h2>Popular</h2>
 	      <% blog.articles.each do |article| %>
 	        <%if article.data.popular? %>
-	        <h2> <%= article.title %> </h2>
-	        <a href=" <%= article.url %>"><%= article.summary %></a>
+	          <a href=" <%= article.url %>"><%= article.title %></a>
 		<% end %>
               <% end %>
 	    </section>
