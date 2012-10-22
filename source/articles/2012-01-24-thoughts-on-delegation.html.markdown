@@ -1,6 +1,7 @@
 --- 
 title: "Thoughts on Delegation"
 published: true 
+popular: true
 date: 2012-01-24
 --- 
 

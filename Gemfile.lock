@@ -17,6 +17,7 @@ GEM
     execjs (1.4.0)
       multi_json (~> 1.0)
     ffi (1.1.5)
+    ffi (1.1.5-x86-mingw32)
     fssm (0.2.9)
     haml (3.1.7)
     hike (1.2.1)
@@ -107,6 +108,7 @@ GEM
 
 PLATFORMS
   ruby
+  x86-mingw32
 
 DEPENDENCIES
   builder (~> 3.0.0)

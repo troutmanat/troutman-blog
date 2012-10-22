@@ -56,6 +56,10 @@ require 'susy'
 # with_layout :admin do
 #   page "/admin/*"
 # end
+#with_layout :article-layout do
+#  page ""
+#end
+
 
 # Proxy (fake) files
 # page "/this-page-has-no-template.html", :proxy => "/template-file.html" do

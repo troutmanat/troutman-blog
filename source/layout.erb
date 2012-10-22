@@ -1,50 +1,85 @@
-<!doctype html>
-<html>
-  <head>
-    <meta charset="utf-8" />
-    <meta http-equiv='X-UA-Compatible' content='IE=edge;chrome=1' />
-    <!-- Stylesheet -->
-    <%= stylesheet_link_tag "site" %>
-  </head>
-  <body>
-    <div class="page">
-    <div role="main" class="main">
-      <div class="column1">
-        <% blog.articles.each do |article| %>
-            <h2> <%= article.title %> </h2>
-            <%= article.summary %>
-          <section>
-          </section>
-        <% end %>
-        
-      </div>
-    </div>
-    <div class="right">
-       <h2>Tags</h2>
-        <ol>
-          <% blog.tags.each do |tag, articles| %>
-            <li><a href="<%= tag_path tag %>"><%= tag %> (<%= articles.size %>)</a></li>
-          <% end %>
-        </ol>
-    </div>
-    <div class="right">
-       <h2>By Year</h2>
-        <ol>
-          <% blog.articles.group_by {|a| a.date.year }.each do |year, articles| %>
-            <li><a href="<%= blog_year_path year %>"><%= year %> (<%= articles.size %>)</a></li>
-          <% end %>
-        </ol>
-    </div>
-    <footer>
-      <aside>
-        <h2>Recent Articles</h2>
-        <ol>
-          <% blog.articles[0...10].each do |article| %>
-            <li><a href="<%= article.url %>"><%= article.title %></a> <span><%= article.date.strftime('%b %e') %></span></li>
-          <% end %>
-        </ol>
-      </aside>
-    </footer>
-   </div>
-  </body>
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Musings on my professional work with management of people and large computer systems.</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width">
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+        <!-- Stylesheet -->
+        <%= stylesheet_link_tag "site" %>
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+        <script src="js/vendor/modernizr-2.6.1.min.js"></script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an outdated browser. <a href="http://browsehappy.com/">Upgrade your browser today</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to better experience this site.</p>
+        <![endif]-->
+
+        <!-- Add your site or application content here -->
+	<div class="page">
+	  <header>
+	    <h2>Andy Troutman</h2>
+	    Opinions available upon request.
+	  </header>
+	  <div role="main" class="main">
+	    <%= yield %>
+	    <div class="section">
+	      <h2>Tags</h2>
+              <ol>
+		<% blog.tags.each do |tag, articles| %>
+		<li><a href="<%= tag_path tag %>"><%= tag %> (<%= articles.size %>)</a></li>
+		<% end %>
+              </ol>
+	    </div>
+	    <section>
+	      <h2>Popular</h2>
+	      <% blog.articles.each do |article| %>
+	        <%if article.data.popular? %>
+	        <h2> <%= article.title %> </h2>
+	        <a href=" <%= article.url %>"><%= article.summary %></a>
+		<% end %>
+              <% end %>
+	    </section>
+	    <div class="section">
+	      <h2>By Year</h2>
+              <ol>
+		<% blog.articles.group_by {|a| a.date.year }.each do |year, articles| %>
+		<li><a href="<%= blog_year_path year %>"><%= year %> (<%= articles.size %>)</a></li>
+		<% end %>
+              </ol>
+	    </div>
+	  </div>
+
+	  <footer>
+	    <aside>
+              <h2>Recent Articles</h2>
+              <ol>
+		<% blog.articles[0...10].each do |article| %>
+		<li><a href="<%= article.url %>"><%= article.title %></a> <span><%= article.date.strftime('%b %e') %></span></li>
+		<% end %>
+              </ol>
+	    </aside>
+	  </footer>
+	</div>
+
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.8.0.min.js"><\/script>')</script>
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
+
+        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+        <script>
+            var _gaq=[['_setAccount','UA-35558987-1'],['_trackPageview']];
+            (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+            g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+            s.parentNode.insertBefore(g,s)}(document,'script'));
+        </script>
+    </body>
 </html>
