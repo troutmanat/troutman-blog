@@ -18,7 +18,66 @@ $color4: #72818B; //light Grey
 $color5: #8F002E; //red
 
 body {
+  font-size: 1.25em;
+  font-family: 'QuicksandBook', sans-serif;
   color: $color4;
+  background-image:url(/images/dark_wall.png);
+}
+
+.dropcap{
+    float:left;
+    font-size:4em;
+    margin-top:14px;
+    margin-right:5px;
+    color:#8C8273;
+}
+
+header {  
+  font-family: 'QuicksandLight', sans-serif;
+  min-height: 3em;
+  clear: both;
+  margin-bottom: 2em;
+  color: $color3;
+  text-align: left;
+  font-size: 1.5em;
+  padding: 2.5em;
+}
+
+footer {
+  background-color:#b30f37;
+}
+
+.break {
+  min-height: 3em;
+}
+
+.recent-header,.twitter-header, .popular-header {
+  font-size: 1.7em;
+  color: #ffffff;
+}
+
+.recent-header {
+  background-color: #b30f37;
+}
+
+.twitter-header {
+  background-color: #a4d283;
+}
+
+.popular-header {
+  background-color: #85E0FF;
+}
+
+.recent-content, .popular-content, .twitter-content, header {
+  background-image:url(/images/lightpaperfibers.png);
+}
+
+.padded-header {
+  padding: .5em;
+}
+
+.main {
+  font-size: 100%;
 }
 
 section {
@@ -32,17 +91,126 @@ section {
  
 }
 
-header {  
-  font-family: 'titillium_webbold', sans-serif;
-  color: $color1;
-  background-color: $color3;
-  font-size: 2em;
-  padding: .5em;
+
+
+.headerImage {
+  top:-500px;
+  width:900px;
+  height:107px;
 }
 
 h2 {
-  font-family: 'titillium_websemibold', sans-serif;
+  font-family: 'QuicksandBold', sans-serif;
   color: $color2;
+}
+
+@font-face {
+    font-family: 'QuicksandLight';
+    src: url('fonts/Quicksand/Quicksand_Light-webfont.eot');
+    src: url('fonts/Quicksand/Quicksand_Light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/Quicksand/Quicksand_Light-webfont.woff') format('woff'),
+         url('fonts/Quicksand/Quicksand_Light-webfont.ttf') format('truetype'),
+         url('fonts/Quicksand/Quicksand_Light-webfont.svg#QuicksandLight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'QuicksandLightOblique';
+    src: url('fonts/Quicksand/Quicksand_Light_Oblique-webfont.eot');
+    src: url('fonts/Quicksand/Quicksand_Light_Oblique-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/Quicksand/Quicksand_Light_Oblique-webfont.woff') format('woff'),
+         url('fonts/Quicksand/Quicksand_Light_Oblique-webfont.ttf') format('truetype'),
+         url('fonts/Quicksand/Quicksand_Light_Oblique-webfont.svg#QuicksandLightOblique') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'QuicksandBook';
+    src: url('fonts/Quicksand/Quicksand_Book-webfont.eot');
+    src: url('fonts/Quicksand/Quicksand_Book-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/Quicksand/Quicksand_Book-webfont.woff') format('woff'),
+         url('fonts/Quicksand/Quicksand_Book-webfont.ttf') format('truetype'),
+         url('fonts/Quicksand/Quicksand_Book-webfont.svg#QuicksandBook') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'QuicksandBookOblique';
+    src: url('fonts/Quicksand/Quicksand_Book_Oblique-webfont.eot');
+    src: url('fonts/Quicksand/Quicksand_Book_Oblique-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/Quicksand/Quicksand_Book_Oblique-webfont.woff') format('woff'),
+         url('fonts/Quicksand/Quicksand_Book_Oblique-webfont.ttf') format('truetype'),
+         url('fonts/Quicksand/Quicksand_Book_Oblique-webfont.svg#QuicksandBookOblique') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'QuicksandBold';
+    src: url('fonts/Quicksand/Quicksand_Bold-webfont.eot');
+    src: url('fonts/Quicksand/Quicksand_Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/Quicksand/Quicksand_Bold-webfont.woff') format('woff'),
+         url('fonts/Quicksand/Quicksand_Bold-webfont.ttf') format('truetype'),
+         url('fonts/Quicksand/Quicksand_Bold-webfont.svg#QuicksandBold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'QuicksandBoldOblique';
+    src: url('fonts/Quicksand/Quicksand_Bold_Oblique-webfont.eot');
+    src: url('fonts/Quicksand/Quicksand_Bold_Oblique-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/Quicksand/Quicksand_Bold_Oblique-webfont.woff') format('woff'),
+         url('fonts/Quicksand/Quicksand_Bold_Oblique-webfont.ttf') format('truetype'),
+         url('fonts/Quicksand/Quicksand_Bold_Oblique-webfont.svg#QuicksandBoldOblique') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'KingthingsCalligraphicaLight';
+    src: url('fonts/Kingthings/Kingthings_Calligraphica_Light-webfont.eot');
+    src: url('fonts/Kingthings/Kingthings_Calligraphica_Light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/Kingthings/Kingthings_Calligraphica_Light-webfont.woff') format('woff'),
+         url('fonts/Kingthings/Kingthings_Calligraphica_Light-webfont.ttf') format('truetype'),
+         url('fonts/Kingthings/Kingthings_Calligraphica_Light-webfont.svg#KingthingsCalligraphicaLight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'KingthingsCalligraphica2Rg';
+    src: url('fonts/Kingthings/Kingthings_Calligraphica_2-webfont.eot');
+    src: url('fonts/Kingthings/Kingthings_Calligraphica_2-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/Kingthings/Kingthings_Calligraphica_2-webfont.woff') format('woff'),
+         url('fonts/Kingthings/Kingthings_Calligraphica_2-webfont.ttf') format('truetype'),
+         url('fonts/Kingthings/Kingthings_Calligraphica_2-webfont.svg#KingthingsCalligraphica2Rg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'KingthingsCalligCalligraphica';
+    src: url('fonts/Kingthings/Kingthings_Calligraphica_Italic-webfont.eot');
+    src: url('fonts/Kingthings/Kingthings_Calligraphica_Italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/Kingthings/Kingthings_Calligraphica_Italic-webfont.woff') format('woff'),
+         url('fonts/Kingthings/Kingthings_Calligraphica_Italic-webfont.ttf') format('truetype'),
+         url('fonts/Kingthings/Kingthings_Calligraphica_Italic-webfont.svg#KingthingsCalligCalligraphica') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
 }
 
 @font-face {

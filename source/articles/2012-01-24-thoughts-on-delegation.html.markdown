@@ -4,7 +4,7 @@ published: true
 popular: true
 date: 2012-01-24
 --- 
-
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
 You manage people, you’re busy all the time, and there is more work
 expected of you than you could possibly get done. You’ll need to give
 some of this work to others if you want to be successful. But delegating

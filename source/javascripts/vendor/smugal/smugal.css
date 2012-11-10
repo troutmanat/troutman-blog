@@ -1,0 +1,26 @@
+/** * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ *	smugal.css
+ *	CSS for the smugmug javascript gallery
+ *	Copyright (c) 2010 Schell Scivally Enterprise. All rights reserved.
+ *
+ *	@author	Schell Scivally
+ *	@since	Tue Jun  1 17:18:43 PDT 2010
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * **/
+body, html {
+	width:100%;
+	height:100%;
+	margin:0px;
+	padding:0px;
+	background-color:#7F7F7F;
+}
+
+#smugmug_gallery {
+	width:100%;
+	height:100%;
+	background:#000000;
+}
+
+#smugmug_gallery img {
+	border:2px #FFFFFF solid;
+	margin:auto;
+}

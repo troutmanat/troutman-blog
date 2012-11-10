@@ -1,8 +1,8 @@
 @import "susy";
 
-$total-columns  : 7;
-$column-width   : 8em;
-$gutter-width   : 2em;
+$total-columns  : 6;
+$column-width   : 4em;
+$gutter-width   : 1em;
 $grid-padding   : $gutter-width;
 
 $break          : 12;
@@ -11,10 +11,30 @@ $break          : 12;
   @include container($total-columns, $break);
   //@include susy-grid-background;
 
-  header, footer { clear:both; }
+  footer { clear:both; }
+
+  .recent-header {
+    @include span-columns(2,$total-columns); 
+  }
+ 
+  .recent-content, .popular-content, .twitter-content {
+    @include span-columns(4 omega, $total-columns);
+  }
+
+  .twitter-header {
+    @include span-columns(2, $total-columns);
+  }
+
+  .popular-header {
+    @include span-columns(2, $total-columns);
+  }
+
+  .break {
+    @include span-columns($total-columns);
+  } 
 
   .main {
-    @include span-columns(5, $total-columns);
+    @include span-columns(6, $total-columns);
     font-family: 'titillium_weblight', sans-serif;
   }
 
