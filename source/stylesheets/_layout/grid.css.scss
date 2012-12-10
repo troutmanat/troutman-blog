@@ -13,21 +13,17 @@ $break          : 12;
 
   footer { clear:both; }
 
-  .recent-header {
-    @include span-columns(2,$total-columns); 
-  }
- 
-  .recent-content, .popular-content, .twitter-content {
+  .recent-content, .popular-content, .twitter-content, .links-content, .tag-content, .year-content, .archive-content, .tags-content {
     @include span-columns(4 omega, $total-columns);
   }
 
-  .twitter-header {
+  .recent-header, .twitter-header, .popular-header, .links-header, .tag-header, .year-header, .archive-header, .tags-header {
     @include span-columns(2, $total-columns);
   }
 
-  .popular-header {
-    @include span-columns(2, $total-columns);
-  }
+  .article-content {
+    @include span-columns(6, $total-columns, 1em);
+  } 
 
   .break {
     @include span-columns($total-columns);

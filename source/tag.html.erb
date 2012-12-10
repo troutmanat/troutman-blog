@@ -1,8 +1,11 @@
 ---
 pageable: true
 per_page: 12
+layout: layout
 ---
-<h1>Articles tagged '<%= tagname %>'</h1>
+<div class="tag-header">
+   <div class="padded-header">Talkin '<%= tagname %>'</div>
+</div>
 
 <% if paginate %>
   <p>Page <%= page_number %> of <%= num_pages %></p>
@@ -12,11 +15,13 @@ per_page: 12
   <% end %>
 <% end %>
 
-<ul>
+<div class="tag-content">
   <% page_articles.each_with_index do |article, i| %>
-    <li><%= link_to article.title, article %> <span><%= article.date.strftime('%b %e') %></span></li>
+    <div class="vertical-list-box">
+      <%= link_to article.title, article %> <span><%= article.date.strftime('%b %e') %></span>
+    </div>
   <% end %>
-</ul>
+</div>
 
 <% if paginate %>
   <% if next_page %>

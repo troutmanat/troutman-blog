@@ -1,12 +1,10 @@
 /**
-
 //HTML5 Boilerplate + Normalize
 *= require "_vendor/normalize.css"
 *= require "_vendor/html5bp.css"
 
 //Grid
 *= require "_layout/grid"
-
 */
 
 /* Palette color codes */
@@ -17,19 +15,13 @@ $color3: #454857; //dark Grey
 $color4: #72818B; //light Grey
 $color5: #8F002E; //red
 
+@import "compass/css3";
+
 body {
   font-size: 1.25em;
   font-family: 'QuicksandBook', sans-serif;
   color: $color4;
   background-image:url(/images/dark_wall.png);
-}
-
-.dropcap{
-    float:left;
-    font-size:4em;
-    margin-top:14px;
-    margin-right:5px;
-    color:#8C8273;
 }
 
 header {  
@@ -41,17 +33,94 @@ header {
   text-align: left;
   font-size: 1.5em;
   padding: 2.5em;
+  position:relative;
+}
+
+.title {
+  font-size:2.5em;
+  div {
+    font-size:.5em;
+    margin-left:2em;
+      
+    a:link, a:visited, a:hover, a:active {
+      text-decoration:none;
+      color: $color3;
+    } 
+  }
+
+  a:hover{
+    text-decoration:none;
+  } 
 }
 
 footer {
-  background-color:#b30f37;
+  font-family: 'QuicksandLight', sans-serif;
+  min-height: 3em;
+  clear: both;
+  color: $color3;
+  text-align: left;
+  font-size: 1em;
+  padding: 2.5em;
+  margin-top: 2em;
+  position:relative;
+}
+
+a:link, a:visited, a:hover, a:active {
+  text-decoration:none;
+  color: $color5;
+}
+
+.dropcap{
+    float:left;
+    font-size:4em;
+    margin-top:14px;
+    margin-right:5px;
+    color:#8C8273;
+}
+
+/////////////////////////////////////////////////////
+// Header Styles
+////////////////////////////////////////////////////
+.header-menu {
+  position:absolute;
+  bottom:.5em;
+  right: 2em;
+  font-family: 'QuicksandBook', sans-serif;
+}
+
+.header-menu-item {
+  padding-right: .5em;
+}
+
+a.header-menu-item:hover {
+  text-decoration:underline;
+  color: $color5;
+}
+
+.vertical-list-box, .vertical-list-padding {
+  padding:.5em;
+  font-size:1.25em;
+}
+.vertical-list-box {
+  border-bottom-style: dotted;
+  border-bottom-width: 3px;
 }
 
 .break {
   min-height: 3em;
 }
 
-.recent-header,.twitter-header, .popular-header {
+//////////////////////////////////////////////////////////
+// index header styles
+/////////////////////////////////////////////////////////
+.multi-column-article {
+   @include column-count(2);
+   @include column-gap(4em);
+   @include column-rule(1px, dotted);
+   margin: 1em;
+}
+
+.recent-header,.twitter-header, .popular-header, .links-header, .tags-header, .year-header, .archive-header, .tag-header {
   font-size: 1.7em;
   color: #ffffff;
 }
@@ -68,7 +137,27 @@ footer {
   background-color: #85E0FF;
 }
 
-.recent-content, .popular-content, .twitter-content, header {
+.links-header {
+  background-color: #d6bc00;
+}
+
+.tags-header {
+  background-color: #330067;
+}
+
+.year-header {
+  background-color: #DE59DE;
+}
+
+.archive-header {
+  background-color: #A7896C;
+}
+
+.tag-header {
+  background-color: #194719;
+}
+
+.recent-content, .popular-content, .twitter-content, .article-content, .tag-content, .year-content, .links-content, .archive-content, .tags-content, header,footer {
   background-image:url(/images/lightpaperfibers.png);
 }
 
@@ -91,12 +180,14 @@ section {
  
 }
 
-
-
 .headerImage {
   top:-500px;
   width:900px;
   height:107px;
+}
+
+h1 {
+  text-align:center;
 }
 
 h2 {

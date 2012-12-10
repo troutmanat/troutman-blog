@@ -1,16 +1,21 @@
 ---
 pageable: true
+layout: layout
 ---
-<h1>Archive for
-  <% case page_type
-     when 'day' %>
-    <%= Date.new(year, month, day).strftime('%b %e %Y') %>
-  <% when 'month' %>
-    <%= Date.new(year, month, 1).strftime('%b %Y') %>
-  <% when 'year' %>
-    <%= year %>
-  <% end %>
-</h1>
+
+<div class="archive-header">
+  <div class="padded-header">
+    <% case page_type
+       when 'day' %>
+      <%= Date.new(year, month, day).strftime('%B %e %Y') %>
+    <% when 'month' %>
+      <%= Date.new(year, month, 1).strftime('%B %Y') %>
+    <% when 'year' %>
+      <%= year %>
+    <% end %>
+  </div>
+</div>
+
 
 <% if paginate %>
   <p>Page <%= page_number %> of <%= num_pages %></p>
@@ -20,11 +25,13 @@ pageable: true
   <% end %>
 <% end %>
 
-<ul>
-  <% page_articles.each_with_index do |article, i| %>
-    <li><%= link_to article.title, article %> <span><%= article.date.strftime('%b %e') %></span></li>
-  <% end %>
-</ul>
+<div class="archive-content"> 
+    <% page_articles.each_with_index do |article, i| %>
+      <div class="vertical-list-box">
+        <%= link_to article.title, article %> <span><%= article.date.strftime('%b %e') %></span>
+      </div>
+    <% end %>
+</div>
 
 <% if paginate %>
   <% if next_page %>
