@@ -1,5 +1,10 @@
-# Everything You didn't Care to Know about Andy Troutman
-Disliker of many things. Able to enjoy many others. Focused on 
+---
+layout: about-layout.erb
+---
+
+<div class="title">Everything You Didn't Care to Know About Andy Troutman
+<div>Over-educated knuckle dragger. Fully committed to tinkering.</div>
+</div>
 
 ## Basics
 + Looks like this: ![Image of Andy](http://troutman-hq.smugmug.com/Travel/Hawaii/i-3H3vgnb/0/L/IMG_2720-L.jpg "I'm the one on the bottom") 
@@ -22,6 +27,9 @@ Disliker of many things. Able to enjoy many others. Focused on
 + Immensely satisfied by good tools which automate work for me. 
  
 ## Personal Interests
-+ Easily frustrated practitioner of the sport of racquetball. 
++ Easily frustrated player of racquetball. 
 + Weekly player of [board games](http://boardgamegeek.com/collection/user/Mantrout?own=1&subtype=boardgame&gallery=large&ff=1).
-+ 
++ Dog park [attendee](http://troutman-hq.smugmug.com/Pets/Finrod-1/26438089_KPzPWL/2223971173_KSPjXXW#!i=2223971173&k=KSPjXXW).
++ Occasional brewer of beer & cider. 
++ Beer Snob. 
++ Reader.

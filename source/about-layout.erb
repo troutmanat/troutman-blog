@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<%= partial "/partials/head" %>
+    <body>
+      <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an outdated browser. <a href="http://browsehappy.com/">Upgrade your browser today</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to better experience this site.</p>
+<![endif]-->
+
+      <header>
+        <%= partial "/partials/header" %>
+      </header>
+	<div class="page">
+	  <div class="article-content">
+	    <%= yield %>
+	  </div>
+	</div>
+
+	<%= partial "/partials/footer" %>
+	<%= partial "/partials/shared-footer-scripts" %>
+	
+    </body>
+</html>
