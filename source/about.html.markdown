@@ -1,5 +1,5 @@
 ---
-layout: about-layout.erb
+layout: about-layout
 ---
 
 <div class="title">Everything You Didn't Care to Know About Andy Troutman

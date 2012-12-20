@@ -92,37 +92,3 @@
   </a>
 </div>
 
-<!-- Examples of how to pull up other content. 
-<div role="main" class="main">
-  <div class="section">
-    <h2>Tags</h2>
-    <ol>
-      <% blog.tags.each do |tag, articles| %>
-      <li><a href="<%= tag_path tag %>"><%= tag %> (<%= articles.size %>)</a></li>
-      <% end %>
-    </ol>
-  </div>
-  <section>
-    <h2>Popular</h2>
-    
-  </section>
-  <div class="section">
-    <h2>By Year</h2>
-    <ol>
-      <% blog.articles.group_by {|a| a.date.year }.each do |year, articles| %>
-      <li><a href="<%= blog_year_path year %>"><%= year %> (<%= articles.size %>)</a></li>
-      <% end %>
-    </ol>
-  </div>
-
-  <% blog.articles.each do |article| %>
-  <h2> <%= article.title %> </h2>
-  <a href=" <%= article.url %>"><%= article.summary %></a>
-  <section>
-  </section>
-  <% end %>
-
-</div>
-
--->
-

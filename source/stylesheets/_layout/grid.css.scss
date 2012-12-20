@@ -21,7 +21,7 @@ $break          : 12;
     @include span-columns(2, $total-columns);
   }
 
-  .article-content {
+  .article-content, .discuss-content {
     @include span-columns(6, $total-columns, 1em);
   } 
 
