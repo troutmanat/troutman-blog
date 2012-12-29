@@ -12,3 +12,11 @@
 
 # Ignore Sass' cache
 /.sass-cache
+
+# Ignore junk folder
+/junk
+
+# Ignore emacs temp file
+*~
+[#]*[#]
+.\#*

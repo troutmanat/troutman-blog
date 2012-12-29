@@ -36,12 +36,9 @@ header {
   position:relative;
 }
 
+
 .title {
-  font-size:2.5em;
   div {
-    font-size:.5em;
-    margin-left:2em;
-      
     a:link, a:visited, a:hover, a:active {
       text-decoration:none;
       color: $color3;
@@ -53,6 +50,10 @@ header {
   } 
 }
 
+.padded-span {
+  padding:20px;
+}
+
 footer {
   font-family: 'QuicksandLight', sans-serif;
   min-height: 3em;
@@ -61,7 +62,7 @@ footer {
   text-align: left;
   font-size: 1em;
   padding: 2.5em;
-  margin-top: 2em;
+  margin-top:3em;
   position:relative;
 }
 
@@ -82,9 +83,6 @@ a:link, a:visited, a:hover, a:active {
 // Header Styles
 ////////////////////////////////////////////////////
 .header-menu {
-  position:absolute;
-  bottom:.5em;
-  right: 2em;
   font-family: 'QuicksandBook', sans-serif;
 }
 
@@ -113,12 +111,7 @@ a.header-menu-item:hover {
 //////////////////////////////////////////////////////////
 // index header styles
 /////////////////////////////////////////////////////////
-.multi-column-article {
-   @include column-count(2);
-   @include column-gap(4em);
-   @include column-rule(1px, dotted);
-   margin: 1em;
-}
+
 
 .recent-header,.twitter-header, .popular-header, .links-header, .tags-header, .year-header, .archive-header, .tag-header {
   font-size: 1.7em;
@@ -159,6 +152,10 @@ a.header-menu-item:hover {
 
 .recent-content, .popular-content, .twitter-content, .article-content, .tag-content, .year-content, .links-content, .archive-content, .tags-content, .discuss-content, header,footer {
   background-image:url(/images/lightpaperfibers.png);
+}
+
+.discuss-content {
+  padding: 1em;
 }
 
 .padded-header {

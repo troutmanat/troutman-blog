@@ -1,46 +1,78 @@
+@import "compass/css3";
 @import "susy";
 
-$total-columns  : 6;
-$column-width   : 4em;
+$total-columns  : 3;
+$column-width   : 10em;
 $gutter-width   : 1em;
-$grid-padding   : $gutter-width;
+$grid-padding   : 0em;
 
-$break          : 12;
+$break          : 6;
 
 .page {
-  @include container($total-columns, $break);
-  //@include susy-grid-background;
+    @include container($total-columns, $break);
 
-  footer { clear:both; }
+    .multi-column-article {
+      margin:.5em;
+    }
 
-  .recent-content, .popular-content, .twitter-content, .links-content, .tag-content, .year-content, .archive-content, .tags-content {
-    @include span-columns(4 omega, $total-columns);
-  }
-
-  .recent-header, .twitter-header, .popular-header, .links-header, .tag-header, .year-header, .archive-header, .tags-header {
-    @include span-columns(2, $total-columns);
-  }
-
-  .article-content, .discuss-content {
-    @include span-columns(6, $total-columns, 1em);
-  } 
-
-  .break {
-    @include span-columns($total-columns);
-  } 
-
-  .main {
-    @include span-columns(6, $total-columns);
-    font-family: 'titillium_weblight', sans-serif;
-  }
-
-  .right {
-    @include span-columns(2 omega, $total-columns);
-  }
+    .recent-header, .twitter-header, .popular-header, .links-header, .tag-header, .year-header, .archive-header, .tags-header {
+      margin-bottom:.5em;
+    }
 }
 
-@include at-breakpoint($break) {
-  .main {
+//bigger BP
+  @include at-breakpoint($break) {
     //@include susy-grid-background;
+
+    footer { clear:both; }
+
+    .recent-content, .popular-content, .twitter-content, .links-content, .tag-content, .year-content, .archive-content, .tags-content {
+       @include span-columns(4 omega, $break);
+    }
+
+    .recent-header, .twitter-header, .popular-header, .links-header, .tag-header, .year-header, .archive-header, .tags-header {
+       @include span-columns(2, $break);
+       margin-bottom:0;
+    }
+
+    .article-content, .discuss-content {
+       @include span-columns(6, $break, 1em);
+    } 
+
+    .break {
+      @include span-columns($break);
+    } 
+
+    .main {
+      @include span-columns(6, $break);
+      font-family: 'titillium_weblight', sans-serif;
+    }
+
+    .right {
+      @include span-columns(2 omega, $break);
+    }
+
+    .multi-column-article {
+      @include column-count(2);
+      @include column-gap(4em);
+      @include column-rule(1px, dotted);
+      margin: 1em;
+    }
+
+    .title {
+      font-size:2.5em;
+      .subtitle {
+        font-size:.5em;
+    	margin-left:2em;
+      }
+    }
+
+    .header-menu {
+      position:absolute;
+      bottom:.5em;
+      right: 2em;
+    }
+
   }
-}
+
+

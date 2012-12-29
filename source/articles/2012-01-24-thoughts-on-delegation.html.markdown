@@ -12,7 +12,8 @@ work is trickier than one might suppose. For new managers, the anal
 retentive, and lesser forms of perfectionism, it can be very difficult
 to let go of control and place your trust in the team. Let’s look at
 delegation done wrong, delegation done correctly, and how to get
-comfortable with giving work to others. **When delegation goes bad**
+comfortable with giving work to others. 
+## When delegation goes bad
 Let’s pretend you’re already good at delegating work. Not just good at
 it but REALLY good at it, you’re the Steve Jobs of getting other people
 to do work for you (OK, Steve Jobs was the Steve Jobs of getting others
@@ -28,19 +29,26 @@ consumer of resources, rather than a provider. If the team thinks of you
 as a remorseless drain, next comes resentment and a loss of respect. And
 since respect is really the only long term form of control you have on a
 team (we’ll talk about that some other time) it’s probably not worth
-losing it just so you can get back an hour of your day. [![Reporting to
+losing it just so you can get back an hour of your day. 
+
+[![Reporting to
 2 managers is such a
 drag](http://andytroutman.com/wordpress/wp-content/uploads/2012/01/lamprey-managers-300x187.jpg "Reporting to 2 managers is such a drag")](http://andytroutman.com/wordpress/wp-content/uploads/2012/01/lamprey-managers.jpg)
-*Reporting to 2 managers is a drag...* You can’t delegate everything and
+
+*Reporting to 2 managers is a drag...* 
+
+You can’t delegate everything and
 expect people to respect you for it, knowing when it make sense to
-delegate work is an important aspect of the skill. **Delegating
-Correctly** Done correctly, delegation becomes a mutually satisfying
+delegate work is an important aspect of the skill. 
+
+## Delegating Correctly 
+Done correctly, delegation becomes a mutually satisfying
 process. For this to work, stay mindful of the kind of work you’re
 asking others to do. You can usually delegate two kinds of tasks without
 much complaining:
 
-1.  Opportunities
-2.  Tasks your team is better equipped for
+1. Opportunities
+2. Tasks your team is better equipped for
 
 Opportunities come in a variety of flavors, they can be to learn a new
 skill, advance one’s career, try out aspects of a different job role,
@@ -78,8 +86,10 @@ go on.” 100% of the test subjects, when told that they didn’t have a
 choice reacted by choosing not to move forward. So too will it go for
 the manager who foists work on to people arbitrarily; or worst results,
 make people feel like they don’t have a choice and you’ll get the kind
-of reaction you deserve. **Being comfortable with delegation** If we
-understand that delegation is less about making demands of others and
+of reaction you deserve. 
+
+## Being comfortable with delegation
+If we understand that delegation is less about making demands of others and
 more about creating mutually beneficial situations, the process should
 no longer feel disingenuous. For others, delegation is difficult because
 of the perceived loss of control. It’s hard to ask others to do things,
