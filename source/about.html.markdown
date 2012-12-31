@@ -2,12 +2,12 @@
 layout: about-layout
 ---
 
-<div class="title">Everything You Didn't Care to Know About Andy Troutman
-<div>Over-educated knuckle dragger. Fully committed to tinkering.</div>
-</div>
-
+<div class="title">Over-educated knuckle dragger.</div>
+<div class="subtitle">Fully committed to tinkering.</div>
 ## Basics
-+ Looks like this: ![Image of Andy](http://troutman-hq.smugmug.com/Travel/Hawaii/i-3H3vgnb/0/L/IMG_2720-L.jpg "I'm the one on the bottom") 
++ Looks like this: 
+
+![Image of Andy](http://troutman-hq.smugmug.com/Travel/Hawaii/i-3H3vgnb/0/L/IMG_2720-L.jpg "I'm the one on the bottom") 
 + Lives in Seattle Washington
 + Married
 + Has a dog

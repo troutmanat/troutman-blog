@@ -8,6 +8,14 @@ $grid-padding   : 0em;
 
 $break          : 6;
 
+.title {
+      font-size:2.5em;
+    }
+
+    .subtitle {
+        font-size:1.5em;
+      }
+
 .page {
     @include container($total-columns, $break);
 
@@ -59,18 +67,15 @@ $break          : 6;
       margin: 1em;
     }
 
-    .title {
-      font-size:2.5em;
-      .subtitle {
-        font-size:.5em;
-    	margin-left:2em;
-      }
-    }
 
     .header-menu {
       position:absolute;
       bottom:.5em;
       right: 2em;
+    }
+
+    .subtitle {
+    	margin-left:2em;
     }
 
   }
