@@ -1,7 +1,9 @@
 --- 
-title: "An idea worth believing in: Hire people who know why they work, not why they want to work for you." 
+title: "An idea worth believing in: Hire people who know why they work, not why they want to work for you."
+description: "I would rather hire someone who self identifies with their work over someone who simply tries to describe what they think the job is about."
 date: 2011-02-10 
-published: true 
+published: true
+tags: hiring
 --- 
 
 I've done a lot of phone interviewing lately so the subject of

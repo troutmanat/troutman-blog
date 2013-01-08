@@ -1,5 +1,6 @@
 --- 
 title: "Document that which can be done"
+description: "Like it or not, automatically generated documentation isn't enough value to the customer. We need to write opinionated documentation on how we expect people to use our software."
 date: 2011-01-19 
 published: true 
 tags: management
