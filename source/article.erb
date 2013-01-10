@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<%= partial "/partials/head" %>
+<%= partial("/partials/head", :locals => {:title => current_page.data.title, :description => current_page.data.description }) %>
     <body>
       <!--[if lt IE 7]>
             <p class="chromeframe">You are using an outdated browser. <a href="http://browsehappy.com/">Upgrade your browser today</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to better experience this site.</p>
@@ -12,11 +12,26 @@
 	  <div class="article-content">
 	    <h1><%= current_page.data.title %></h1>
 	    <div class="multi-column-article"><%= yield %></div>
+	    <div class="right-aligned-div">
+	    Tags: 
+	    <% current_page.tags.each do |tag| %>
+	      <span>
+	        <a href="<%= tag_path tag %>"><%= tag %></a>,
+	      </span>
+	    <% end %>
+	    </div>
 	  </div>
 
 	  <div class="break"></div>
 	  <div class="discuss-content">
 	    <h1>Let's talk it out...</h1>
+	    <div class="centered-div">
+	      <span class='st_twitter_large' displayText='Tweet'></span>
+	      <span class='st_linkedin_large' displayText='LinkedIn'></span>
+	      <span class='st_facebook_large' displayText='Facebook'></span>
+	      <span class='st_googleplus_large' displayText='Google +'></span>
+	      <span class='st_reddit_large' displayText='Reddit'></span>
+	    </div>
 	    <div id="disqus_thread"></div>
 	    <script type="text/javascript">
 	      /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
@@ -36,7 +51,9 @@
 	
 	<%= partial "/partials/footer" %>
 	<%= partial "/partials/shared-footer-scripts" %>
-	
+	<script type="text/javascript">var switchTo5x=true;</script>
+	<script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
+	<script type="text/javascript">stLight.options({publisher: "ff8c4aeb-da4d-4ffd-a039-288b8681f285"});</script>
     </body>
 </html>
 

@@ -4,7 +4,7 @@
 </div>
 
 <div class="year-content">
-  <% blog.articles.group_by {|a| a.date.year }.each do |year, articles| %>
+  <% blog.articles.select{|a| a.data.published?}.group_by {|a| a.date.year }.each do |year, articles| %>
     <div class="vertical-list-box">
       <a href="<%= blog_year_path year %>"><%= year %></a> (<%= articles.size %>)<br>
     <% articles.group_by {|b| b.date.month }.each do |month, marticles| %>
@@ -28,7 +28,3 @@
       </div>
     <% end %>
 </div>
-
-
-
-

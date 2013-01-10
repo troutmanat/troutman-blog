@@ -2,13 +2,13 @@
   <div class="padded-header">In our last episode</div>
 </div>
 <div class="recent-content">
-    <% blog.articles[0...2].each do |article| %>
-    <div class="vertical-list-box">
-      <a href="<%= article.url %>"><%= article.title %></a> <span><%= article.date.strftime('%b %e %Y') %></span>
-    </div>
+    <% blog.articles.select{|a| a.data.published?}[0...2].each do |article| %>
+        <div class="vertical-list-box">
+          <a href="<%= article.url %>"><%= article.title %></a> <span><%= article.date.strftime('%b %e %Y') %></span>
+        </div>
     <% end %>
     <div class="vertical-list-padding">
-      <a href="<%= blog.articles[2].url %>"><%= blog.articles[2].title %></a> <span><%= blog.articles[2].date.strftime('%b %e %Y') %> </span>
+      <a href="<%= blog.articles.select{|a| a.data.published?}[2].url %>"><%= blog.articles.select{|a| a.data.published?}[2].title %></a> <span><%= blog.articles.select{|a| a.data.published?}[2].date.strftime('%b %e %Y') %> </span>
     </div>
 </div>
 <div class="break"></div>
@@ -38,43 +38,43 @@
 <div class="links-content">
   <div class="vertical-list-box">
     <a href="https://twitter.com/the_mantrout">
-	  <span class="padded-span"><img src="/images/icons/twitter-bird.png" width=50px></span>
+	  <span class="padded-span"><img src="/images/icons/twitter-bird.png" alt="follow @the_mantrout on twitter" width=50px></span>
 	  <span>Disconnected thoughts, plus cursing.</span>
     </a>
   </div>
   <div class="vertical-list-box">
     <a href="http://www.linkedin.com/pub/andrew-troutman/6/258/5a0">
-    <span class="padded-span"><img src="/images/icons/linkedin-icon.jpg" width=50px></span>
+    <span class="padded-span"><img src="/images/icons/linkedin-icon.jpg" alt="see where I'm working on linkedin" width=50px></span>
     <span>I usually only "link up" with people I've actually worked with, but I'll happily recruit you if you're desperate to be one of my connections.</span>
     </a>
   </div>
   <div class="vertical-list-box">
     <a href="http://www.goodreads.com/user/show/3359533">
-      <span class="padded-span"><img src="/images/icons/goodreads-icon.png" width=50px></span>
+      <span class="padded-span"><img src="/images/icons/goodreads-icon.png" alt="my book reviews from goodreads" width=50px></span>
       <span>Book reviews in 30 seconds or less.</span>
     </a>
   </div>
   <div class="vertical-list-box">
     <a href="https://plus.google.com/108881765329470493804/posts">
-      <span class="padded-span"><img src="/images/icons/g-plus-icon.png" height=50px></span>
+      <span class="padded-span"><img src="/images/icons/g-plus-icon.png" alt="follow me on google plus" height=50px></span>
       <span>An anti-social network... perfect.</span>
     </a>
   </div>
   <div class="vertical-list-box">
     <a href="http://www.quora.com/Andy-Troutman">
-      <span class="padded-span"><img src="/images/icons/quora-icon.png" height=50px></span>
+      <span class="padded-span"><img src="/images/icons/quora-icon.png" alt="occasional answers on quora" height=50px></span>
       <span>The occasional long-winded answer to one question or another.</span>
     </a>
   </div>
   <div class="vertical-list-box">
     <a href="http://troutman-hq.smugmug.com/">
-      <span class="padded-span"><img src="/images/icons/smug-mug-icon.png" height=50px></span>
+      <span class="padded-span"><img src="/images/icons/smug-mug-icon.png" alt="my pictures on smugmug" height=50px></span>
       <span>A big ol pile of pictures. </span>
     </a>
   </div>
   <div class="vertical-list-box">
     <a href="https://github.com/troutmanat">
-      <span class="padded-span"><img src="/images/icons/github-icon.png" height=50px></span>
+      <span class="padded-span"><img src="/images/icons/github-icon.png" alt="my code on github" height=50px></span>
       <span>You can get the code & images for this blog from here. </span>
     </a>
   </div>

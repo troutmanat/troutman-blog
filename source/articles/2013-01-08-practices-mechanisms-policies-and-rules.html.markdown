@@ -2,11 +2,11 @@
 title: "Being Effective: Understanding the value of mechanisms, and when to get by with rules instead."
 description: "In order to be more effective, we must prevent problems from reemerging. The hard skill in management is deciding when a problem is truly worth solving, and when we can live with the risk." 
 date: 2013-01-08 
-published: false
+published: true
 tags: effectiveness,problem solving,risk mitigation
 --- 
 
-Problems repeat themselves. A big part of being effective is learning how to stop solving the same problem again and again and instead move on to the next issue. Most people can fix a problem as it occurs, but the tougher skill is to *resolve* the issue for good.
+Problems repeat themselves. Being effective means you'll need to stop solving the same problem again and again and instead move on to the next issue. Resolving an issue for good can be a difficult skill to master, let's look at one of the common mistakes and talk about how to avoid it.
 
 ## The danger of relying on good intentions
 
@@ -18,7 +18,7 @@ Tell me if this has happened on your team:
 
 Begin by admitting to yourself that asking people to change, even if they AGREE with the suggestion is a low-probability event. Worse still, even if you have an extremely motivated and passionate team, they're likely not a team of robots (If you run a team of robots please email me, **I want to know more**) and will eventually make mistakes when trying to apply a policy. Expecting the right thing to consistently happen just because everyone agrees, and even wants the outcome is nothing more than relying on good intentions, which will eventually result in the reemergence of a problem. 
 
-## What we want is a mechanism that nobody every has to think about if things are going well
+## What we want is a mechanism that nobody every has to think about when things are going well
 
 Sticking with our code testing example, the solution wasn't to get everyone to agree that code must be tested, it's to make sure that when code isn't tested, the submitter isn't successful. In this example, maybe the solution is a pre-commit hook that validates the code includes changes to test files, or maybe you're one of those insane teams that has code coverage metrics. Regardless of the reason, a failure to test new code results in a localized failure for the individual. The intended outcome is always achieved, no matter what the mistake or omission.
 
