@@ -2,13 +2,13 @@
   <div class="padded-header">In our last episode</div>
 </div>
 <div class="recent-content">
-    <% blog.articles.select{|a| a.data.published?}[0...2].each do |article| %>
+    <% blog.articles.select{|a| a.data.published?}[0...5].each do |article| %>
         <div class="vertical-list-box">
           <a href="<%= article.url %>"><%= article.title %></a> <span><%= article.date.strftime('%b %e %Y') %></span>
         </div>
     <% end %>
     <div class="vertical-list-padding">
-      <a href="<%= blog.articles.select{|a| a.data.published?}[2].url %>"><%= blog.articles.select{|a| a.data.published?}[2].title %></a> <span><%= blog.articles.select{|a| a.data.published?}[2].date.strftime('%b %e %Y') %> </span>
+      <a href="<%= blog.articles.select{|a| a.data.published?}[5].url %>"><%= blog.articles.select{|a| a.data.published?}[5].title %></a> <span><%= blog.articles.select{|a| a.data.published?}[5].date.strftime('%b %e %Y') %> </span>
     </div>
 </div>
 <div class="break"></div>
