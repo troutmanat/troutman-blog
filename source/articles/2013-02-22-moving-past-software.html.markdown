@@ -1,11 +1,12 @@
 --- 
 title: "Moving Past Writing Software"
-description: "I frequently get asked by developers considering a switch to management: do you miss coding? No, I don't. Here's why.
+description: "I frequently get asked by developers considering a switch to management: do you miss coding? No, I don't. Here's why."
 date: 2013-02-22 
+popular: true
 published: true
 tags: management, process
 ---
-I'm going to tell you a long story about how I cam to a point in my life where I wasn't writing software anymore, and why that's OK with me. But I can't start there, I'll have to start quite a bit earlier for it all to make sense. 
+I'm going to tell you a long story about how I came to a point in my life where I wasn't writing software anymore, and why that's OK with me. But I can't start there, I'll have to start quite a bit earlier for it all to make sense. 
 
 ## Wrecking Cannonballs
 I've always had a curiosity about how things work. As a small child, the only real option I had for figuring it out was to take something apart.  Deconstruct, and then seeing the pieces covering the floor, fully re-form the mechanism in my mind. I once unscrewed my grandfather's vice until it fell apart, being interested in the mechanism that made the jaws move and wondering how far it could open. Was it designed to stop at some point? Turns out no, it would let you unscrew the jaws till they fell out of their tracks. In a moment of frustration, my grandfather turned to me: "God damn it! You could wreck a cannonball. Why did you do that?". It seemed like a silly question to me. 
@@ -33,4 +34,4 @@ Here is a lie every new dev manager tells themselves: I'll still make time to co
 
 But I'm happy with my decision to move on, not because I was tired of programming but because I had figured it out to my own satisfaction. Now programming isn't the thing I'm trying to take apart and rebuild, it's management. Programming has become a tool I can use to take other things apart. I still occasionally write some code, but it's no longer about the software, it's about the answer or the insight it's going to give me. Coding is a really nice sledgehammer, and if your taking things apart that's a great tool to have handy. But that's what it's become to me, a tool for getting answers. As a manager turned developer, you need to make peace with that. 
 
-I don't expect every developer to understand that, but somewhere out there, you might have been that same kid who took apart his grandfather's vise just to see how it worked. You might feel like you're turning your back on your identity by leaving programming behind. I want to tell you that you're not the only one who felt that way, and it's OK. The world doesn't need more managers, but it could stand to have a few more curious explorers leading great teams. Don't be afraid to figure out how the next cannonball works. Go break it open. 
+I don't expect every developer to understand that, but somewhere out there, you might have been that same kid who took apart his grandfather's vise just to see how it worked. You might feel like you're turning your back on your identity by leaving programming behind. I want to tell you that you're not the only one who felt that way, and it's OK. The world doesn't need more managers, but it could stand to have a few more curious explorers leading great teams. Don't be afraid to figure out how the next cannonball works. Go break it open.

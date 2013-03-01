@@ -1,8 +1,7 @@
 --- 
 title: "Thoughts on Delegation"
 description: "delegation is an important management skill to get right, provided you use it correctly. Let's deep dive on some of the ways we can use delegation to good effect."
-published: true 
-popular: true
+published: true
 date: 2012-01-24
 tags: management,delegation
 --- 

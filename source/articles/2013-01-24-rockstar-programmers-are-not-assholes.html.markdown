@@ -2,6 +2,7 @@
 title: "A Rockstar Programmer Isn't the Same Thing as a Smart Asshole"
 description: "Assholes shouldn't be hired, even when they can program well. Don't trick yourself into thinking you're hiring a rockstar when really all you've done is hire a smart asshole."
 date: 2013-01-24 
+popular: true
 published: true
 tags: hiring
 --- 

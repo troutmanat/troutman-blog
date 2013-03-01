@@ -2,6 +2,7 @@
 title: "Traditional Design Sucks in an Agile Process"
 description: "Design work in Agile. Agile development methods are set up beautifully to handle writing software, but design tasks always feel like the ugly duckling. Here's my approach to dealing with design work in an Agile process."
 date: 2013-02-05 
+popular: true
 published: true
 tags: SDM, agile
 --- 

@@ -23,13 +23,13 @@
   <div class="padded-header">Greatest Hits</div>
 </div>
 <div class="popular-content">	   
-   <div class="vertical-list-box">
      <% blog.articles.each do |article| %>
        <%if article.data.popular? %>
-         <a href=" <%= article.url %>"><%= article.title %></a>
+         <div class="vertical-list-box">
+           <a href=" <%= article.url %>"><%= article.title %></a>
+	 </div>
        <% end %>
     <% end %>
-  </div>
 </div>
 <div class="break"></div>
 <div class="links-header">
