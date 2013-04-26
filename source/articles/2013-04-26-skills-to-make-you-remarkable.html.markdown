@@ -1,0 +1,32 @@
+--- 
+title: "We must get people to invest in what will make them remarkable"
+description: "Sometimes improvement isn't about doing something differently, it's about doing more of what you're good at. Managers need to encourage people to be remarkable, and investing in your weakest talents won't get them there."
+date: 2013-04-26
+popular: false
+published: true
+tags: reviews, self improvement, managing talent
+---
+
+I'm wraping up another review season with my team which is a long, time consuming, and emotional process. Reviews at my current job follow a very simple structure: 
+
+1. High-level overview of what was and wasn't accomplished
+2. Strengths
+3. Areas to improve
+
+Recently, I've been thinking a lot about the "Areas to improve" section of the review and have come to the conclusion that most of us are getting it wrong. That can have a big impact on future performance reviews. What a lot of managers are doing is to simply list whatever skill or principle the person is least efficient at, say that's what they should improve, and move on. That is an example of screwing up the areas to improve section, because it assumes that whatever you're the worst in is what you need to focus on and do more of, which I've come to believe isn't always the case.
+
+# Well rounded is frequently overrated.
+For most of us, talent should be viewed as a set of [linked slider bars](http://keith-wood.name/linkedSliders.html). If you're going to put time and energy into one area, it's going to cost you some performance in another. Some people aren't running at full capactiy, and at least for a little bit, they can improve performance in one area without compromizing performance in another. Let's assume you've got a slider bar for every valued talent at your company. As a manager, is strategy to simply make them all even? Make a really well rounded candidate? If so you've only succeeded in making them unremarkable in every way. When I think about this candidate, the word that jump to my lips is "meh". Nobody (seriously, not a sigle person on the planet) is exceptional at everything, and so a strategy of being "equally good" at all things means you're probably selling yourself short in an area you could have been exceptional in. By encourageing our people to invest in their least developed skills, we're distracting them from becoming remarkable in something that matters more.
+
+# Not investing in your strengths is silly: the effort isn't the same
+People don't perform their poorest in something they're good at. A lack of interest usually leads to a lack of practice, which causes you to perform poor in one area or another. Encouraging others to improve the thing they're the least good at is an up hill battle all the way. And for what? So they can go from OK to more OK? Is it realistic for someone to become remarkable in something they're really good at, or the thing they're the worst at? I'd rather have the flawed remarkable person. Nobody says "play to your weaknesses" for a reason.
+
+# The goal is to be acceptable in everything, remarkable in some
+Let's take the sliders analogy from above, and break the range into 3 sections. The bottom section we will call "unacceptable". If you manage someone with one or more sliders is in this area, they run the risk of being fired if they don't improve. Next is the "acceptable" range, which is frequently quite large. Although the slider can move around in this range, and a good manager can say who's slider is closer to the top of the range, for the most part this means you're doing your job and if you plug away at it good things will eventually come your way. Finally, near the top we have the remarkable range. Remarkable is just that - it's a person worth talking about. People who are spoken of positively will get more opportunities - they're actively placed on projects where their talents are most needed. People who are acceptable at their job will usually have to seek out opportunities, but remarkable people have opportunities brought to them. Being remarkable at something is clearly good for one's career, and increases their ability to attain professional goals. As a manager you want to create remarkable people, *that makes you remarkable*. 
+
+Let's go back to the performance review and look at what we need to mark down in areas of improvement. Clearly, being unacceptable in some area, has to go on the areas of improvement, it's a done deal. But what if the sliders are sprinkled throughout the acceptable range? The goal shouldn't be to take the two lowest sliders and move them further up. Instead, the goal is to find the sliders that are closest to the remarkable range and encourage people to push them over the line. **These** are the areas to improve, because they are the skills that will make someone remarkable. 
+
+If someone is remarkable in a few areas, and acceptable in others, you have a decision to make: Do you them to invest more in their most remarkable characteristics, or do you try to make them remarkable in others? I think this comes down to career goals. If someone is already doing what you want, and they're most remarkable skills are a good match for the work, then I would tell my people to keep improving in their most remarkable areas. If on the other hand I was managing someone with aspirations are to grow into another roll, or to be promoted to a more senior role, then the advice would probably involve growing one of your acceptable traits into something remarkable, even if it costs you to loose your edge in an existing skill. The reality is that different skills are valued for differnt jobs and levels, what got someone to a senior engineer position might not be what will get them to a senior manager, or distinguished engineer. You need to encourage people to invest in skills for the next level if that's where they want to be.
+
+# Magnify people's talent
+At the end of the day, a manager should be bringing out the best in his or her people. As painful and ackward as the review process is, it will be taken seriously by your team, and thus there is a lot of responsibility in doing it right. Simply telling people the areas you think they do the poorest in is a form of punting, and can lead to a situation where you're encouraging mediocrity. Instead, think about where the person can truly shine, and move them towards that reality. Making your people effective makes your job easier, encouraging them to invest in anything else is a bad plan for everyone.
