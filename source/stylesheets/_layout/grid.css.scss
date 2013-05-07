@@ -61,7 +61,7 @@ $break          : 6;
     }
 
     .multi-column-article {
-      @include column-count(2);
+      @include column-count(1);
       @include column-gap(4em);
       @include column-rule(1px, dotted);
       margin: 1em;
