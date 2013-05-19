@@ -1,0 +1,29 @@
+--- 
+title: "What Academic Candidates get Wrong When They Apply for a Job"
+description: "Academic research and engineering are, practically speaking,  worlds apart."
+date: 2013-05-15
+popular: false
+published: true
+tags: communication
+---
+
+Hiring academics can be tricky and often unsuccessful for both employer and employee. Underneath the thesis topic, you are often dealing with deep, independent thinkers and so the risk is worth taking. I'm going to try to capture some of the reasons, both concrete and intangible, which often seem to trip up academic candidates. I'll also note here that I do not come from an academic background. Although I have a master's degree in computer science, school was definitely a means to an end for myself. I did my master's thesis while working full time, and so it's probably fair to note that this is written from the outside looking in.
+
+## What is an "Academic" anyways?
+let's call an "academic" candidate anyone who's college studies were viewed as an end unto themselves, rather than a means to an end. Master's students on a thesis track, PhD candidates, post-doctoral candidates, junior, adjunct, and tenured professors are all examples of academic roles. Professional master's degrees, or "5 year masters" degrees are both examples of professional higher-level education, and typically people coming from this background have very little issue getting hired and retained at a company. If your "exit strategy" from college is to get a job, I think these kind of degrees are very marketable, but that's a different topic... 
+
+## What the academic candidate should know: You are switching careers, much of your current skill set won't be directly applicable. 
+Researching, and applying research are 2 different jobs, and being good at one doesn't guarantee success in the other. Convince me that you can take the theoretical and apply it to real world problems, or I'm going to pass on you. A lot of my interviews with academic candidates go off the rails when I realize the person is only interested in saying "Isn't that interesting?" but they have no picture in their mind of a user, or a customer. The goal of engineering (software or otherwise) is to make things *for people*. Come to the interview prepared to talk about how the work you've done in college could be applied to the real world. This will be easier for some than others, based on where your research took you... Theory of computation? That's going to be tough. Distributed Systems? Machine Learning? Easier.
+
+Stop ignoring problems, account for them. In academic papers, you make simplifying assumptions so that you can more easily focus on the topic at hand. Engineers do this too, but the kinds of assumptions are very different. "Assume no network errors", or "Assume that all nodes n can communicate directly" are what engineers would call bad assumptions. It always concerns me when I ask a candidate to solve a problem, and they ignore most of the difficult parts. We're actually going to build this thing now, so I need to know if you can account for all the bad stuff that can happen. People, networks, hardware, and software all end up failing, account for this in your response. Be prepared to talk about how we work around an imperfect system, don't tell me you're going to ignore it.
+
+Codes well with others. In those hallowed halls of education, you probably didn't have to do a lot of programming with others. Depending on your emphasis, you may have not done much coding at all. If you're applying to a software engineering position, you need to brush up on your coding, the bar for writing software in the industry is **much** higher than in academia. Pay attention to qualitative things like your code style. Make sure you're well versed in a language of your choice, and not just pseudo code. Technical interviews always start with the basics, and those that have been in the industry a while know to study up on this stuff, like complexity analysis, data structures, searching and sorting... etc. I recommend getting a book like "[Cracking the Coding Interview](http://www.amazon.com/gp/product/098478280X/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=098478280X&linkCode=as2&tag=wwwandytroutm-20)" which will server as a good refresher of the basics you'll need to come into the interview knowing. [Go practice](http://community.topcoder.com/tc) solving simple problems on a whiteboard, in real time, you're going to be asked to do it during the interview. 
+
+Hopefully it's sinking in by now - you need to do a lot of preparation for industry interviews, essential skills have atrophied, and you'll have to show the value of other talents from a new context. Don't get tripped up and underestimate the size of the difference between these two related but different jobs. 
+
+## First the practical stuff, or "how could somebody with a PhD not know that?
+The most common phrase out of my engineer's mouths when interviewing academic candidates is "She has a PhD, how could she not know that?". Like it or not, the expectations put on an academic candidate is often higher than a professional candidate. We'll often forgive the seasoned engineer for not remembering the details from a college course they took 6 years ago, but for some reason we're shocked when an academic doesn't remember the details. This is a double standard, and you as the hiring manager need to set expectations - this person hasn't been taking data structures, algorithms, and intro to computer science for the last decade of their life... they're just as likely to be rusty on this stuff, perhaps more so (more on that later). 
+
+But the blame doesn't lie solely with the interviewer, academics need to do their damn homework just like everyone else.  
+
+As an academic candidate, you need to get comfortable speculating 
